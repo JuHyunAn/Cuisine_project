@@ -1,0 +1,62 @@
+
+/* --------------main---------------------------- */
+#main{
+    height: 700px;
+    width: 100%;
+    border: 1px solid black;
+    background: rgb(192, 248, 174);
+}
+
+
+/* --------------id + class(첫번째 구간)----------------------- */
+#main .container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+#main .box{
+    background: lightblue;
+    width: 60%;
+    height: 100%;
+    /* margin: 0 auto; */
+}
+
+#main .description{
+    background: deepskyblue;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* --------------id + class + class(두번째 구간)---------------- */
+
+#main .box .img-box{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    width: 200; 
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+
+/* --------------id + class + tag(두번째 구간)---------------- */
+
+#main .description h1{
+    border: 1px solid black;
+    background: yellow;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    height: 100px;
+}
+
+#main .description p{
+    border: 1px solid black;
+    background: yellowgreen;
+    font-size: 25px;
+    font-weight: normal;
+    height: 300px;
+}

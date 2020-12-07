@@ -1,0 +1,107 @@
+html{
+	background-image: url("/images/editors/bggg.jpg");
+}
+
+/* --------------main---------------------------- */
+
+
+#main {
+	height: 700px;
+	width: 100%;
+	border: 1px solid black;
+	-background: rgb(192, 248, 174);
+}
+
+/* --------------id + class----------------------- */
+#main .container {
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+}
+
+#main .box {
+	width: 60%;
+	height: 100%;
+	/* margin: 0 auto; */
+}
+
+#main .description {
+	-background: white;
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* --------------id + class + class---------------- */
+#main .box .img-box {
+	display: flex;
+	text-align: center;
+	margin: 10px;
+	width: 200;
+	height: 300px;
+}
+
+#main .box .img-box {
+	justify-content: space-around;
+}
+
+#main .box .img-box:last-child {
+	justify-content: space-between;
+	margin-left: 36px;
+	margin-right: 36px;
+}
+
+#main .box .img-box img {
+	width: 180px;
+	border-radius: 100px;
+	margin-top: 15%;
+	box-shadow: 0 20px 8px -3px rgba(50, 50, 93, 0.3);
+}
+
+#main .box .img-box img:hover {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.2);
+	transition: 0.4s ease-in-out;
+}
+
+#main .container .box .img-box .editor:nth-child(2) {
+	margin-top: 175px;
+}
+
+#main .container .box .img-box:last-child .editor:nth-child(2) {
+	margin-top: 0;
+}
+
+.container .msg {
+	text-align: center;
+	font-family: 'Jua', sans-serif;
+	font-size: 25px;
+}
+
+/* --------------id + class + tag---------------- */
+
+
+#main .description h1 {
+	-border: 1px solid black;
+	-background: yellow;
+	text-align: center;
+	font-size: 40px;
+	height: 100px;
+	color: #26B2AA;
+	font-family: 'Do Hyeon', sans-serif;
+	padding-top: 160px;
+	padding-left: 50px;
+}
+
+#main .description p {
+	-border: 1px solid black; -
+	-background: yellowgreen;
+	font-size: 32px;
+	font-weight: normal;
+	height: 300px;
+	font-family: 'Do Hyeon', sans-serif;
+	color: rgb(234, 123, 25);
+	padding-left: 50px;
+}
